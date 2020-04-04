@@ -1,0 +1,27 @@
+body{
+  margin-left: 20px;
+margin-bottom: 100px;
+background:linear-gradient(to right,#07b020,#07e0c7);
+
+}
+.submitbt{
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  color:green;
+}
+#date{
+  position: absolute;
+  left:1200px;
+  top:50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#time{
+  position: absolute;
+    left:1200px;
+  right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
