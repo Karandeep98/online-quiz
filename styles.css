@@ -1,11 +1,12 @@
 body{
+
   margin-left: 20px;
 margin-bottom: 100px;
 background:linear-gradient(to right,#07b020,#07e0c7);
 
 }
 .submitbt{
-  font-size: 20px;
+font-size: 20px;
   padding: 5px;
   font-weight: bold;
   color:green;

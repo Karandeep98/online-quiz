@@ -19,8 +19,8 @@ var months = ["January", "February", "March", "April", "May", "June", "July", "A
 
 document.getElementById("date").innerHTML="Test Date: "+date.toString()+
 " "+months[d.getMonth()]+" "+year.toString();
-if(0<=hours<=11) var x=" AM"
+if(hours>=0 && hours<=11) var x=" AM"
 else x=" PM"
-if(hours>12) hours-=12;
-else if(hours==0) hours=12;
+ if(hours>12) hours-=12;
+ else if(hours==0) hours=12;
 document.getElementById("time").innerHTML="Test Time: "+hours.toString()+":"+min.toString()+x;
